@@ -1,0 +1,15 @@
+server:
+  port: 8081 # 端口配置
+
+spring:
+  application:
+    name: micro-user
+
+eureka:
+  client:
+    serviceUrl: # 注册到对应的注册中心
+      defaultZone: http://localhost:8080/eureka/
+
+
+
+

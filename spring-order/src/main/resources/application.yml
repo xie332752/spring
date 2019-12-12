@@ -1,0 +1,8 @@
+server:
+  port: 8080  # 端口配置
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false # 不要把自己注册到自己
+    fetch-registry: false

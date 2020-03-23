@@ -10,8 +10,13 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class RegistryApplication {
 
     public static void main(String[] args) {
-        System.out.println("hello");
+        System.out.println("helloworld");
         SpringApplication.run(RegistryApplication.class, args);
+        String str = "1212abs@qq.com";
+        int i = str.indexOf("@");
+        System.out.println(i);
+        String str1 = str.substring(0,i);
+        System.out.println(str1);
     }
 
 }

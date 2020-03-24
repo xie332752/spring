@@ -12,6 +12,7 @@ public class RegistryApplication {
     public static void main(String[] args) {
         System.out.println("helloworld");
         SpringApplication.run(RegistryApplication.class, args);
+
     }
 
 }
